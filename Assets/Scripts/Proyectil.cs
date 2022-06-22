@@ -5,6 +5,7 @@ public class Proyectil : MonoBehaviour
 
     public float speed = 0.09f;
     public Vector3 direccion=new Vector3(0.01f,0,0);
+    public int damage=10;
 
     void Update()
     {
