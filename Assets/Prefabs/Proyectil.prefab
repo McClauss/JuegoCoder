@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4285117377222664950}
   - component: {fileID: 5973069952048371609}
   - component: {fileID: 2308011197127993878}
+  - component: {fileID: 6418599494976417990}
   m_Layer: 0
   m_Name: Proyectil
   m_TagString: Untagged
@@ -113,3 +114,15 @@ MonoBehaviour:
   speed: 0.09
   direccion: {x: 0.01, y: 0, z: 0}
   damage: 10
+--- !u!114 &6418599494976417990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7193650110300066183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86cf54b4f6dc08e4da7fbac34f8468f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

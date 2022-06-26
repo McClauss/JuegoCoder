@@ -44,7 +44,7 @@ public class UsoIf : MonoBehaviour
 
     void Disparar(){
         if(Input.GetKeyDown(KeyCode.Space)){
-            Instantiate(proyectilPrefab, transform.positition,transform.rotation);
+            Instantiate(proyectilPrefab, transform.position,transform.rotation);
         }
     }
 
