@@ -50,8 +50,6 @@ public class UsoIf : MonoBehaviour
 
     void MovimientoJugador(){
 
-    /*FORMA DETECCION DEL INPUT OPCION 2 - USANDO GET AXIS
-    **********************************************************************************************/
     float hor= Input.GetAxis("Horizontal");//Lee el input que corresponda al eje X. Bien venga de joistick,control, teclado (AWSD o flechas), etc. GetAxisRaw mueve de 0 a 1, es decir mas rapido o para saltar por ejemplo
     float ver= Input.GetAxis("Vertical");//Lee el input que corresponda al eje Y Bien venga de joistick,control, teclado (AWSD o flechas), etc.
 
